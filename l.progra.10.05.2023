@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main()
+{
+    char letra;
+    printf("Digite uma letra:");
+    scanf("%s", &letra);
+    switch(letra){
+        case 'a':
+        printf("Domingo");
+        break;
+        case 'b':
+        printf("Segunda");
+        break;
+        printf("opção inválida");
+        case 'c':
+        printf("Terça");
+        break;
+        case 'd':
+        printf("Quarta");
+        break;
+        printf("opção inválida");
+        case 'e':
+        printf("Quinta");
+        break;
+        printf("opção inválida");
+        case 'f':
+        printf("Sexta");
+        break;
+        case 'g':
+        printf("Sábado");
+        break;
+        default:
+        printf("opção inválida");
+    }
+}
+
